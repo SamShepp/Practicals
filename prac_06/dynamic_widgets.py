@@ -1,6 +1,7 @@
 from kivy.app import App
-from kivy.lang  import  Builder
+from kivy.lang import Builder
 from kivy.uix.label import Label
+
 
 class ListNames(App):
     def build(self):

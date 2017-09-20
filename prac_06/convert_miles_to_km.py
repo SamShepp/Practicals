@@ -22,8 +22,8 @@ class ConvertMilesToKm(App):
             return 0
 
     def handle_increment(self, increment):
-            result = self.get_validated_miles() + increment
-            self.root.ids.input_number.text = str(result)
+        result = self.get_validated_miles() + increment
+        self.root.ids.input_number.text = str(result)
 
 
 ConvertMilesToKm().run()
